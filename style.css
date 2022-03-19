@@ -9,7 +9,7 @@
 }
 
 .star-wrapper{
-    width: 90%;
+    width: 60%;
     height: 64px;
     background-color: white;
     display: flex;
@@ -17,27 +17,6 @@
 }
 
 .star{
-    height: 100%;
-    width: 15%;
-    position: relative;
+    color: #f1f1f1;
+    font-size: xx-large;
 }
-
-.triangle-up {
-    width: 0;
-    height: 0;
-    border-left: 24px solid transparent;
-    border-right: 24px solid transparent;
-    border-bottom: 48px solid #f1f1f1;
-    position: absolute;
-    top: 0;
-  }
-
-  .triangle-down {
-    width: 0;
-    height: 0;
-    border-left: 24px solid transparent;
-    border-right: 24px solid transparent;
-    border-top: 48px solid #f1f1f1;
-    position: absolute;
-    bottom: 0;
-  }
